@@ -97,7 +97,7 @@ class Ball(GameObject):
         self.radius = 10
         self.direction = [1, -1]
         self.speed = 10
-        item = canvas.create_oval(x-self.radius, y-self.radius, x+self.radius, y+self.radius, fill='green')
+        item = canvas.create_oval(x-self.radius, y-self.radius, x+self.radius, y+self.radius, fill='blue')
         super(Ball, self).__init__(canvas, item)
 
     def update(self):
